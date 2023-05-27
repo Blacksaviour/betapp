@@ -1,0 +1,81 @@
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #2b2d42;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Form styles */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/* Input styles */
+.input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Button styles */
+.button {
+  background-color: #064d08;
+  color: rgb(155, 7, 7);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Button hover styles */
+.button:hover {
+  background-color: #3e8e41;
+}
+
+/* Prize button styles */
+.prize-button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+/* Prize button hover styles */
+.prize-button:hover {
+  background-color: #c62828;
+}
+
+/* Error message styles */
+.error {
+  color: #f44336;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
